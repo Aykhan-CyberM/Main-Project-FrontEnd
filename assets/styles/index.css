@@ -143,3 +143,155 @@ color: rgb(134, 142, 150);
     position: relative;
     left: 210px;
 }
+
+.popular-this-week__images-section3{
+    display: flex;
+    
+}
+
+.popular-this-week__images__fifth > img{
+    width: 300px;
+}
+
+.popular-this-week__images__fifth > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.popular-this-week__images__fifth:hover {  
+    transition: 400ms;
+    transition-timing-function: linear;
+    transform: scale(1.1,1.1);
+	transform-origin: center;
+ 
+}
+
+.popular-this-week__images__sixth > img{
+    margin-left: 200px;
+    width: 600px;
+}
+
+.popular-this-week__images__sixth__articles{
+    position: relative;
+    bottom: 450px;
+    left: 70px;
+}
+
+.popular-this-week__images__sixth__articles > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.popular-this-week__images__sixth:hover {  
+    transition: 400ms;
+    transition-timing-function: linear;
+    transform: scale(1.1,1.1);
+	transform-origin: center;
+ 
+}
+
+.dealof-theweek{
+    background-color: rgba(235,247,255,255);
+}
+
+.row{
+    margin: 20px;
+}
+
+.container2{
+    margin: 0px 40px 0px 80px;
+    margin-top: 100px;
+}
+
+.New-Arrivals > p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgb(134, 142, 150);
+}
+
+.newarrivals-product-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.newarrivals-product-menu__left > a:not(:first-child){
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: rgb(134, 142, 150);
+    padding: 10px;
+}
+
+.newarrivals-product-menu__left > a:first-child{
+color: black;
+}
+
+
+.newarrivals-product-menu__right > a{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20.48px;
+    letter-spacing: 3px;
+    color: rgb(154, 136, 75);
+}
+
+.newarrivals-products{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.newarrivals-products__firstline{
+    display: flex;
+    column-gap: 40px;
+}
+
+.product{
+    width: 255px;
+    height: 410px;
+    border: transparent;
+    
+}
+
+.product > img{
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.product > span{
+    margin-top: 8px;
+}
+
+.product > span:last-child{
+    display: block;
+    color: rgb(134, 142, 150);
+}
+.firstspan{
+    font-weight: bolder;
+    letter-spacing: 0.3px;
+}
+
+.firstspan > a{
+    color: black;
+}
+
+.newarrivals-products__secondline{
+    display: flex;
+    column-gap: 40px;
+}
+
+.py-6{
+background-color:rgba(234,224,189,255);
+text-align: center;
+}
+
+.envelope{
+    width: 8%;
+   
+}
